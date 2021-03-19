@@ -17,6 +17,11 @@
   --back-ligt-wite: #FFFFFF;
 
 }
+body{
+        font-family: "Roboto", sans-serif;
+        font-style: normal; 
+        margin: 0; 
+}
 
 .color-orangered{
         background-color:#FFFFFF;
@@ -253,7 +258,25 @@ a {
 .text:hover,
 .text:focus{
         border: 1px solid orangered;
-}     
+}   
+.active-list-run{
+      
+      
+}  
+.active-link{
+display: flex;
+justify-content: space-between;
+align-content: center;
+background-color: rgba(33, 150, 243, 1);
+}
+.active-list-icon{
+         
+}
+.active-icon{
+    
+        
+
+}
 /*чем мы занимаемся*/
 .sidebar-container{
         background-color: #FFFFFF;  
@@ -381,27 +404,73 @@ a {
         text-decoration: none;}
 .team-text:hover,
 .team-text:focus{
-        border: 1px solid orangered;
-     
+        border: 1px solid orangered; 
 }
+.team-social-item{
+        display: flex;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: red;
+        justify-content: center;
+        align-content: center;
+}
+.team-social-link{
+      
+}
+
+
 /*Постоянные клиенты*/
-.client{
-        background-color: rebeccapurple;
-       
-}
 .container-client{
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 25px;
-        width: 1200px;
-        height: 60px;
+        margin: 0 auto;
+        padding: 0 15px;
+        width: 1200px;  
+        box-sizing: border-box;
+}
+.client-item{
+        width: 1170px;
+        height: 172px;
+        margin-top: 92px;
+        margin-bottom: 94px;
         margin-left: auto;
         margin-right: auto;
-        align-items: center;
-        line-height: 30px;  
-        font-weight: 800;
-        font-size: 30px;
+        margin-left: 15px;
+        margin-right: 15px;     
+}
+.client-list {
+        display: inline-block;
         text-align: center;
+        width: 170px;
+        height: 90px;
+        border: 1px solid rgba(117, 117, 117, 1);
+        border-radius: 4px;  
+}
+.client-link {
+        width: 170px;
+        height: 90px;
+        background-color: #ffffff; 
+        border-radius: 50%; 
+        text-align: center;
+        justify-content: center;
+        align-items: center; 
+        justify-content: center;  
+        margin: 20px; 
+}
+.client-title{
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;     
+}
+
+ul, li, a, h1, h2, h3, p {
+        margin: 0;
+        padding: 0;
 }
 /*Контакты*/
 .contacts{
@@ -432,6 +501,41 @@ a {
         letter-spacing: 0.03em;
         color: #FFFFFF;
      
+}
+/*social*/
+.social-title{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-right: 940px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16.41px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+}
+.social-list{
+        display: flex;
+        width: 210px;
+        justify-content: space-between;
+        
+}
+.social-link{
+        display: flex;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.15);
+        color: rgba(255, 255, 255, 1);
+        align-items: center;
+        justify-content: center;
+}
+.social-smart{
+        display: flex;
+        width: 210px;
+        justify-content: space-between;
+            
 }
 /*портфолио*/
 .color{
@@ -475,7 +579,7 @@ a {
 }
 .like-slim{
         width: 1170px;
-          margin-left: 215px;
+        margin-left: 215px;
         margin-right: 215px;
         justify-content: space-between;
         display: flex;
