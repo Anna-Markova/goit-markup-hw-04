@@ -200,6 +200,22 @@ a {
 .hero-text-color:focus{
         border: 1px solid orangered;   
 }
+/*deteils*/
+.container-details{
+}
+.details-item{
+        display: flex;
+        justify-content: center;
+        align-content: center;  
+      
+}
+.details-icon{
+       background-color: rgba(117, 117, 117, 1);
+        display: inline-block;
+        margin: 10px;
+        justify-content: space-between;
+        align-content: center;
+}
 /*внимание к деталям*/
 .container{
         margin: 0 auto;
@@ -259,24 +275,6 @@ a {
 .text:focus{
         border: 1px solid orangered;
 }   
-.active-list-run{
-      
-      
-}  
-.active-link{
-display: flex;
-justify-content: space-between;
-align-content: center;
-background-color: rgba(33, 150, 243, 1);
-}
-.active-list-icon{
-         
-}
-.active-icon{
-    
-        
-
-}
 /*чем мы занимаемся*/
 .sidebar-container{
         background-color: #FFFFFF;  
@@ -415,17 +413,9 @@ background-color: rgba(33, 150, 243, 1);
         justify-content: center;
         align-content: center;
 }
-.team-social-link{
-      
-}
-
-
 /*Постоянные клиенты*/
 .container-client{
-        margin: 0 auto;
-        padding: 0 15px;
-        width: 1200px;  
-        box-sizing: border-box;
+        
 }
 .client-item{
         width: 1170px;
@@ -501,41 +491,6 @@ ul, li, a, h1, h2, h3, p {
         letter-spacing: 0.03em;
         color: #FFFFFF;
      
-}
-/*social*/
-.social-title{
-        margin-top: 0px;
-        margin-bottom: 20px;
-        margin-right: 940px;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16.41px;
-        letter-spacing: 0.03em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-}
-.social-list{
-        display: flex;
-        width: 210px;
-        justify-content: space-between;
-        
-}
-.social-link{
-        display: flex;
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        background-color: rgba(0, 0, 0, 0.15);
-        color: rgba(255, 255, 255, 1);
-        align-items: center;
-        justify-content: center;
-}
-.social-smart{
-        display: flex;
-        width: 210px;
-        justify-content: space-between;
-            
 }
 /*портфолио*/
 .color{
