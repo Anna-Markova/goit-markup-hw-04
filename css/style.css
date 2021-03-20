@@ -492,6 +492,41 @@ ul, li, a, h1, h2, h3, p {
         color: #FFFFFF;
      
 }
+/*social*/
+.social-title{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-right: 940px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16.41px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+}
+.social-list{
+        display: flex;
+        width: 210px;
+        justify-content: space-between;
+
+}
+.social-link{
+        display: flex;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.15);
+        color: rgba(255, 255, 255, 1);
+        align-items: center;
+        justify-content: center;
+}
+.social-smart{
+        display: flex;
+        width: 210px;
+        justify-content: space-between;
+
+}
 /*портфолио*/
 .color{
         background-color: #FFFFFF;
