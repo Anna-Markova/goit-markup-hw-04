@@ -105,6 +105,26 @@ a {
         font-size: 14px;
         text-decoration: none;
 }
+.links-plus::after{
+        position: absolute;
+        width: 100%;
+        right: 0;
+        bottom: -1px;
+        content: "";
+        display: block;
+        background-color: rgba(33, 150, 243, 1);
+        height: 4px;
+        border-radius: 2px;
+
+}
+.links-plus{
+        position: relative;
+        color:$decoration-color ;
+}
+.links-plus:hover,
+.links-plus:after{
+        display: block;
+}
 .social-links{
         display: flex;
         margin-left: 93px;
@@ -201,20 +221,18 @@ a {
         border: 1px solid orangered;   
 }
 /*deteils*/
-.container-details{
-}
-.details-item{
+.details-icon-block{
         display: flex;
         justify-content: center;
-        align-content: center;  
-      
+        align-content: center;
+        background-color: rgba(117, 117, 117, 1);     
 }
 .details-icon{
-       background-color: rgba(117, 117, 117, 1);
-        display: inline-block;
-        margin: 10px;
-        justify-content: space-between;
-        align-content: center;
+       display: flex;
+       width: 70px;
+       height: 70px;
+       justify-content: center;
+       align-items: center;
 }
 /*внимание к деталям*/
 .container{
@@ -340,7 +358,6 @@ a {
         border-radius: 0px 0px 4px 4px;
         background: #fff;
 }
-
 /*карточки*/
 .team-card {
         width: 270px;  
@@ -404,14 +421,34 @@ a {
 .team-text:focus{
         border: 1px solid orangered; 
 }
+.team-social-list{
+        display: flex;
+        justify-content: center;        
+}
 .team-social-item{
         display: flex;
+        justify-content: space-between;
+        align-content: center;
         width: 44px;
         height: 44px;
         border-radius: 50%;
-        background: red;
-        justify-content: center;
-        align-content: center;
+        left: 0%;
+        background-color: #2196F3;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin: 10px;
+        background-color: blueviolet;           
+}
+
+.team-icon{
+       width: 44px;
+       height: 44px;
+       display: flex;
+       justify-content:center;
+       align-content: center;
+       padding: 15px; 
 }
 /*Постоянные клиенты*/
 .container-client{
@@ -429,11 +466,10 @@ a {
 }
 .client-list {
         display: inline-block;
-        text-align: center;
-        width: 170px;
-        height: 90px;
+        justify-content: center;
+        align-content: center;
         border: 1px solid rgba(117, 117, 117, 1);
-        border-radius: 4px;  
+        border-radius: 4px;
 }
 .client-link {
         width: 170px;
@@ -442,11 +478,13 @@ a {
         border-radius: 50%; 
         text-align: center;
         justify-content: center;
-        align-items: center; 
-        justify-content: center;  
-        margin: 20px; 
+        align-items: center;    
+        display: flex;
+       
 }
 .client-title{
+        margin-top: 94px;
+        margin-bottom: 50px;
         font-family: "Roboto", sans-serif;
         text-align: center;
         font-style: normal;
@@ -457,7 +495,6 @@ a {
         letter-spacing: 0.03em;
         color: #212121;     
 }
-
 ul, li, a, h1, h2, h3, p {
         margin: 0;
         padding: 0;
@@ -494,6 +531,7 @@ ul, li, a, h1, h2, h3, p {
 }
 /*social*/
 .social-title{
+        font-family: "Roboto", sans-serif;
         margin-top: 0px;
         margin-bottom: 20px;
         margin-right: 940px;
@@ -504,29 +542,46 @@ ul, li, a, h1, h2, h3, p {
         letter-spacing: 0.03em;
         color: #FFFFFF;
         text-transform: uppercase;
+        margin-left: 516px;
 }
 .social-list{
         display: flex;
-        width: 210px;
         justify-content: space-between;
+        width: 145px;
+        height: 16px;
+        margin-left: 500px;
+        
 
 }
 .social-link{
         display: flex;
+        align-content: center;
+        justify-content: center;
         width: 44px;
         height: 44px;
         border-radius: 50%;
         background-color: rgba(0, 0, 0, 0.15);
         color: rgba(255, 255, 255, 1);
-        align-items: center;
-        justify-content: center;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin: 5px;
+       
 }
-.social-smart{
+.social-icon{
         display: flex;
-        width: 210px;
-        justify-content: space-between;
-
+        align-content: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding: 12px;       
 }
+
 /*портфолио*/
 .color{
         background-color: #FFFFFF;
